@@ -1,17 +1,16 @@
 <template>
   <div class="home container">
-    <WrapperCard/>
+    <HomeCard/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import WrapperCard from '@/components/WrapperCard.vue';
+import HomeCard from '@/components/HomeCard.vue';
 
 export default {
   name: 'Home',
   components: {
-    WrapperCard
+    HomeCard
   }
 }
 </script>

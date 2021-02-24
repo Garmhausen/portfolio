@@ -1,9 +1,5 @@
 <template>
-  <div id="app" class="container flex-col content-center w-screen h-screen text-charcoal">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div> -->
+  <div id="app" class="container text-charcoal mx-auto pt-10">
     <router-view/>
     <FooterMenu />
   </div>
@@ -25,9 +21,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-}
-
-a {
-  color: #DAF7DC;
 }
 </style>
