@@ -1,22 +1,22 @@
 <template>
-  <div id="footer-menu" class="pt-3">
-    <ul>
-      <li>
+  <div id="nav" class="p-5 text-xl">
+    <transition-group name="slide" tag="ul">
+      <li v-bind:key="1">
         <router-link to="/">home</router-link>
       </li>
-      <li>
+      <li v-bind:key="2">
         <router-link to="/code">code</router-link>
       </li>
-      <li>
+      <li v-bind:key="3">
         <router-link to="/contact">contact</router-link>
       </li>
-    </ul>
+    </transition-group>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'FooterMenu',
+  name: 'Nav',
   props: {},
 }
 </script>
@@ -29,5 +29,8 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+}
+.slide-move {
+  transition: transform .1s;
 }
 </style>
