@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-6 md:p-8 text-center md:text-left my-auto">
+  <div class="pt-6 md:p-8 text-center md:text-left md:text-sm lg:text-base my-auto">
       <blockquote>
         <p>
           <b>Robert Garmhausen</b> - Software Engineer.
@@ -16,7 +16,7 @@
           Before all that, I was living in Asheville NC, working IT and making a go of <a href="https://vimeo.com/59695399">being</a> <a href="https://youtu.be/hxcmDOT5poM">a</a> <a href="https://open.spotify.com/artist/6rabW8GTeJd5qhXXddQypT?si=RW6pZHFySKmYYTWXJxPu6A">musician</a>.
         </p>
         <p>
-          When I'm not at my keyboard, you can find me playing board games and making music.
+          When I'm not at my keyboard, you can find me playing board games (likely digitally these days, #rona), making music, attempting crossword puzzles, or reading back-issues of X-Men.
         </p>
       </blockquote>
     </div>

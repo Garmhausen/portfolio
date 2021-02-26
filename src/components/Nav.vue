@@ -1,5 +1,5 @@
 <template>
-  <div id="nav" class="p-5 text-xl">
+  <div id="nav" class="p-8 text-xl">
     <transition-group name="slide" tag="ul">
       <li v-bind:key="1">
         <router-link to="/">home</router-link>
