@@ -30,10 +30,14 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  scrollBehavior() {
-    return { x: 0, y: 0 };
-  },
   routes
-})
+});
+
+router.beforeEach(function (to, from, next) {
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+  }, 300);
+  next();
+});
 
 export default router
