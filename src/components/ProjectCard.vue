@@ -8,7 +8,7 @@
       <p class="p-6">{{ about }}</p>
       <div class="flex justify-center gap-4">
         <span v-if="hostUri"><a :href="hostUri">Live</a></span>
-        <span v-if="codeUri"><a :href="hostUri">Code</a></span>
+        <span v-if="codeUri"><a :href="codeUri">Code</a></span>
       </div>
     </div>
   </div>
