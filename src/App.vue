@@ -21,6 +21,9 @@ export default {
 </script>
 
 <style>
+blockquote {
+  text-align: justify;
+}
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

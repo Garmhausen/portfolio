@@ -13,7 +13,7 @@
           Previously, I worked in fintech building out an Angular app.
         </p>
         <p>
-          Before all that, I was living in Asheville NC, working IT and making a go of <a href="https://vimeo.com/59695399">being</a> <a href="https://youtu.be/hxcmDOT5poM">a</a> <a href="https://open.spotify.com/artist/6rabW8GTeJd5qhXXddQypT?si=RW6pZHFySKmYYTWXJxPu6A">musician</a>.
+          Before all that, I was living in Asheville NC, working in IT and making a go of <a href="https://vimeo.com/59695399">being</a> <a href="https://youtu.be/hxcmDOT5poM">a</a> <a href="https://open.spotify.com/artist/6rabW8GTeJd5qhXXddQypT?si=RW6pZHFySKmYYTWXJxPu6A">musician</a>.
         </p>
         <p>
           When I'm not at my keyboard, you can find me playing board games (likely digitally these days, #rona), making music, attempting crossword puzzles, or reading back-issues of X-Men.

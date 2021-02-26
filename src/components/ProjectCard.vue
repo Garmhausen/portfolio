@@ -5,7 +5,7 @@
       <img class="rounded-md border border-charcoal border-opacity-25" :src="imageUri" />
     </div>
     <div class="md:col-span-2">
-      <p class="p-6">{{ about }}</p>
+      <blockquote class="p-6">{{ about }}</blockquote>
       <div class="flex justify-center gap-4">
         <span v-if="hostUri"><a :href="hostUri">Live</a></span>
         <span v-if="codeUri"><a :href="codeUri">Code</a></span>

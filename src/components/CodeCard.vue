@@ -1,13 +1,15 @@
 <template>
   <figure id="code-card" class="container md:flex flex-col max-w-screen-lg rounded-xl p-8 md:p-0 shadow">
     <h2>Teh Codez</h2>
-    <blockquote class="md: p-6">
+    <blockquote class="md:p-6">
       <p>
         I'm a strong believer in open-source software and the amazing community it fosters.
         I hope to one day find a little more free time to help lower the barrier of entry into the programming world, to help spread code-literacy.
         Meanwhile, here's stuff in lists!
       </p>
-      <h3>A list of tech I'm super comfortable working with:</h3>
+    </blockquote>
+    <h3>A list of tech I'm super comfortable working with:</h3>
+    <blockquote class="md:p-6 text-center">
       <ul>
         <li v-for="item in tech" :key="item">{{ item }}</li>
       </ul>
