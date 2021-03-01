@@ -23,6 +23,9 @@ export default {
 li {
   margin-bottom: .5rem;
 }
+ul {
+  margin-bottom: 3rem;
+}
 h2 {
   margin: 2rem 0 1rem;
   text-align: left;
