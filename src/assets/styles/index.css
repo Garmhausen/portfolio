@@ -4,7 +4,7 @@
 
 @layer base {
   a {
-    @apply text-lapis
+    @apply text-redpigment
   }
 
   a:hover {

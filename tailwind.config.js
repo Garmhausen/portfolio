@@ -10,6 +10,7 @@ module.exports = {
       darksky: '#86BBD8',
       charcoal: '#2F4858',
       grannysmith: '#9EE493',
+      redpigment: '#EE2E31',
       nyanza: '#DAF7DC',
     },
     container: {
