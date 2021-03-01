@@ -1,20 +1,20 @@
 <template>
   <figure id="code-card" class="container md:flex flex-col max-w-screen-lg rounded-xl p-8 md:p-0 shadow">
     <h2>Teh Codez</h2>
-    <blockquote class="md:p-6">
+    <blockquote class="md:p-8">
       <p>
         I'm a strong believer in open-source software and the amazing community it fosters.
         I hope to one day find a little more free time to help lower the barrier of entry into the programming world, to help spread code-literacy.
         Meanwhile, here's stuff in lists!
       </p>
     </blockquote>
-    <h3>A list of tech I'm super comfortable working with:</h3>
-    <blockquote class="md:p-6 text-center">
+    <h2>A list of tech I'm super comfortable working with</h2>
+    <blockquote class="md:p-8 mb-4 text-center">
       <ul>
         <li v-for="item in tech" :key="item">{{ item }}</li>
       </ul>
     </blockquote>
-    <h3>Some Selections:</h3>
+    <h2>Selected Work</h2>
     <div class="divide-y divide-charcoal divide-opacity-25">
       <template v-for="project in projects">
         <ProjectCard
@@ -102,7 +102,8 @@ export default {
         'MongoDB',
         'PostgreSQL',
         'MySQL',
-        'Jasmine',
+        'SQL Server',
+        'Selenium',
         'Docker',
         '.NET',
         'git',
@@ -126,11 +127,9 @@ p {
   margin-bottom: 1rem;
 }
 h2 {
-  margin: 2rem 0 1rem;
-  font-size: 2rem;
-}
-h3 {
-  margin: 4rem 0 1rem;
+  margin: 2rem 2rem 0;
+  text-align: left;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 </style>
